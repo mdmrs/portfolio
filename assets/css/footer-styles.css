@@ -1,0 +1,104 @@
+/* C:\Users\HP\Downloads\portfolio\assets\css\footer-styles.css */
+
+.footer {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text color */
+    padding-top: 60px; /* Adjust padding as needed */
+    padding-bottom: 40px; /* Adjust padding as needed */
+  }
+  
+  .footer-container {
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .footer-logo-social {
+    display: flex;
+    flex-direction: column; /* Stack logo and social icons vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text content within */
+    margin-bottom: 40px; /* Space between logo/social and links */
+  }
+  
+  .footer-logo img {
+    height: auto;
+    width: auto;
+    max-height: 80px; /* Adjust logo size as needed */
+    margin-right: 0; /* Remove right margin, as icons are below */
+    margin-bottom: 20px; /* Add margin below logo to separate from icons */
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    align-items: center;
+  }
+  
+  .footer-social-icons a {
+    display: block;
+    margin-right: 20px; /* Spacing between social icons */
+  }
+  
+  .footer-social-icons a:last-child {
+    margin-right: 0; /* No margin for the last icon */
+  }
+  
+  .footer-social-icons img {
+    height: 25px; /* Adjust social icon size as needed */
+    width: auto;
+    display: block; /* Ensure icons are block-level for consistent sizing */
+  }
+  
+  .footer-links-sections {
+    display: flex;
+    justify-content: space-between; /* Space out the link columns */
+    margin-bottom: 50px; /* Space between link sections and copyright */
+  }
+  
+  .footer-section-title {
+    font-size: 30px; /* From your specs: 30px, uppercase, bold */
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: 700; /* Bold */
+    font-family: 'Montserrat-Bold', sans-serif; /* Use Montserrat Bold */
+    margin-bottom: 20px; /* Space below section title */
+  }
+  
+  .footer-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links-list li {
+    margin-bottom: 10px; /* Spacing between list items */
+  }
+  
+  .footer-links-list li:last-child {
+    margin-bottom: 0; /* No margin for the last list item */
+  }
+  
+  .footer-links-list a,
+  .footer-contact-email a {
+    text-decoration: none;
+    color: #ffffff; /* White link color */
+    font-size: 25px; /* From your specs: 25px, medium weight */
+    line-height: 36px;
+    font-weight: 500; /* Medium weight */
+    font-family: 'Montserrat-Medium', sans-serif; /* Use Montserrat Medium */
+    transition: color 0.3s ease; /* Hover color transition */
+  }
+  
+  .footer-links-list a:hover,
+  .footer-contact-email a:hover {
+    color: #cccccc; /* Lighter color on hover, adjust as needed */
+  }
+  
+  .footer-copyright {
+    text-align: center; /* Center the copyright text */
+    font-size: 14px; /* Adjust copyright font size if needed */
+    font-family: 'Montserrat-Medium', sans-serif; /* Use Montserrat Medium for copyright */
+    opacity: 0.7; /* Slightly faded copyright text */
+  }

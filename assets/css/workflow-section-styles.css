@@ -1,0 +1,50 @@
+/* C:\Users\HP\Downloads\portfolio\assets\css\workflow-section-styles.css */
+
+.workflow-section {
+    background-color: #000000; /* Black background */
+    padding-top: 70px; /* Adjust vertical padding as needed */
+    padding-bottom: 70px; /* Adjust vertical padding as needed */
+    text-align: center; /* Center text horizontally */
+  
+    display: flex;          /* Enable Flexbox on the section */
+    flex-direction: column;   /* Stack content vertically */
+    justify-content: center; /* Vertically center content */
+  }
+  
+  .workflow-section-container {
+    max-width: 1142px; /* Adjust max-width if needed */
+    margin: 0 auto; /* Center the container */
+    padding-left: 20px; /* Add horizontal padding if needed */
+    padding-right: 20px; /* Add horizontal padding if needed */
+    /* Remove top and bottom margin if any, as vertical centering is handled by flexbox now */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .workflow-title-main {
+    font-size: 50px; /* Adjust font size to match visually - similar to contact form title */
+    letter-spacing: 4px; /* Consistent letter spacing */
+    line-height: 60px; /* Adjust line height if needed */
+    text-transform: uppercase; /* Uppercase text */
+    color: #ffffff; /* White color */
+    font-weight: bold; /* Bold font weight */
+    font-family: 'MonumentExtended-Ultrabold', sans-serif; /* Monument Extended font */
+    margin-bottom: 20px; /* Spacing below main title */
+    text-align: center; 
+  }
+  
+  .workflow-title-purple {
+    color: #9400d3; /* Purple color for "TENT DESIGN USA" */
+  }
+  
+  .workflow-description {
+    font-size: 20px; /* Adjust paragraph font size if needed */
+    line-height: 31px; /* Adjust paragraph line height if needed */
+    color: #ffffff; /* White color */
+    font-weight: 500; /* Medium font weight */
+    font-family: 'Montserrat-Medium', sans-serif; /* Montserrat font */
+  }
+  
+  .workflow-description strong {
+    font-weight: 700; /* Make "Tent Design USA" within description bold */
+  }

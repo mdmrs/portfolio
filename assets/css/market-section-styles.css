@@ -1,0 +1,80 @@
+/* C:\Users\HP\Downloads\portfolio\assets\css\market-section-styles.css */
+
+.market-section {
+    background-color: #ffffff; /* White background */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .market-section-container {
+    max-width: 1141px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .market-section-heading {
+    font-size: 40px;
+    line-height: 48px; /* Increased line-height for heading */
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .market-value-box {
+    padding: 15px 30px;
+    border-radius: 18px;
+    background-color: #a800ff;
+    margin: 0 auto;
+    display: inline-block; /* Changed from flex to inline-block */
+    margin-bottom: 30px;
+    width: auto; /* Allow box to size to content */
+    max-width: 100%; /* Prevent overflow on small screens */
+}
+
+.market-value-text-multi-billion {
+    font-size: 105px;
+    letter-spacing: 4px;
+    line-height: 1; /* Adjusted from 0.8 */
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'MonumentExtended-Ultrabold', sans-serif;
+    text-align: center;
+    margin: 0; /* Reset margins */
+    white-space: nowrap; /* Keep text on one line */
+}
+  
+  .market-value-text-dollar-industry { /* Style for "DOLLAR INDUSTRY?" line */
+    font-size: 76px; /* Keep same font-size, adjust line-height if needed */
+    letter-spacing: 5px;
+    line-height: 76px; /* Adjusted line-height to match font-size */
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'MonumentExtended-Ultrabold', sans-serif;
+    text-align: center;
+    margin-top: 0; /* Removed top margin for "DOLLAR INDUSTRY?" */
+  }
+  
+  
+  .market-description {
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
+    text-align: center;
+  }
+  
+  .market-description strong {
+    font-weight: 700;
+  }
+  
+  .highlight-purple {
+    color: #9400d3;
+    font-weight: 700;
+  }

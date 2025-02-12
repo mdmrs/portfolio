@@ -1,0 +1,104 @@
+/* C:\Users\HP\Downloads\portfolio\assets\css\contact-form-styles.css */
+
+.contact-form-section {
+    background-color: #000000; /* Black background */
+    padding-top: 60px; /* Adjust padding as needed */
+    padding-bottom: 80px; /* Adjust padding as needed */
+  }
+  
+  .contact-form-container {
+    max-width: 1142px; /* Specified width */
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .contact-form-title {
+    font-size: 62px; /* Specified font size */
+    letter-spacing: 4px; /* Specified letter spacing */
+    line-height: 61px; /* Specified line height */
+    text-transform: uppercase; /* Specified text transform */
+    color: #ffffff; /* White color */
+    font-weight: bold; /* Bold font weight */
+    font-family: 'MonumentExtended-Ultrabold', sans-serif; /* Monument Extended font */
+    text-align: center; /* Center text */
+    margin-bottom: 40px; /* Space below title */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column; /* Stack form groups vertically */
+
+  }
+  
+  .form-group {
+    margin-bottom: 25px; /* Spacing between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Make labels take full width */
+    font-size: 15px; /* Specified font size */
+    line-height: 36px; /* Specified line height */
+    color: #ffffff; /* White color */
+    font-weight: 500; /* Medium font weight */
+    font-family: 'Montserrat-Medium', sans-serif; /* Montserrat font */
+    margin-bottom: 8px; /* Space below label */
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%; /* Make inputs take full width of form group */
+    padding: 12px;
+    border: none;
+    background-color: #ffffff; /* White input background */
+    color: #000; /* Black text color inside input */
+    font-family: 'Montserrat-Medium', sans-serif; /* Consistent font */
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding is inside width */
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  /* Inline form groups for Email and Subject */
+  .form-group-inline {
+    display: flex;
+    gap: 20px; /* Spacing between inline fields */
+  }
+  
+  .form-group-inline .form-group-inner {
+    flex: 1; /* Distribute space equally between inner groups */
+  }
+  
+  .submit-button {
+    width: 312px;          /* Specified width */
+    height: 54px;         /* Specified height */
+    border-radius: 9px;     /* Specified border-radius */
+    background-color: #a800ff; /* Specified background color (purple) */
+    border: 0px solid #afb1b4; /* Specified border (effectively no border as it's 0px) */
+    color: #ffffff;          /* White text color */
+    cursor: pointer;
+    font-family: 'Montserrat-Bold', sans-serif; /* Use Montserrat Bold for button text */
+    font-weight: bold;
+    font-size: 16px;         /* Adjust button font size if needed - keep consistent if you like */
+    text-transform: uppercase; /* Uppercase text on button */
+    transition: background-color 0.3s ease; /* Hover transition */
+    align-self: center; 
+  }
+  
+  .submit-button:hover {
+    background-color: #9400d3; /* Slightly darker purple on hover - adjust as needed */
+  }
+  
+  .submit-button:hover {
+    background-color: #7a00b2; /* Darker purple on hover */
+  }
+  
+  .confirmation-message {
+    color: #ffffff; /* White confirmation message text */
+    text-align: center;
+    font-size: 20px; /* Adjust confirmation message font size */
+    margin-top: 20px; /* Spacing above confirmation message */
+  }

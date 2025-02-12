@@ -1,0 +1,48 @@
+<!-- C:\Users\HP\Downloads\portfolio\components\contact-form.html -->
+<section class="contact-form-section">
+    <div class="contact-form-container">
+      <h2 class="contact-form-title">LET'S START <br> A PROJECT TOGETHER</h2>
+  
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+  
+        <div class="form-group form-group-inline">  <!-- Inline container for Company & Email -->
+          <div class="form-group-inner">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" required>
+          </div>
+          <div class="form-group-inner">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+  
+        <div class="form-group form-group-inline">  <!-- Inline container for Subject & How did you hear -->
+          <div class="form-group-inner">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group-inner">
+            <label for="hearAboutUs">How did you hear about us?</label>
+            <input type="text" id="hearAboutUs" name="hearAboutUs" required>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="help">How can we help?</label>
+          <textarea id="help" name="help" rows="5" required></textarea>
+        </div>
+  
+        <button type="submit" class="submit-button">SEND</button>
+      </form>
+  
+      <div id="confirmationMessage" class="confirmation-message" style="display:none;">
+        <p>Thank you! Your message has been sent.</p>
+      </div>
+    </div>
+  
+    <script src="../assets/js/contact-form.js"></script>
+  </section>

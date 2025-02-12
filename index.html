@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio Website</title>
+    <link rel="stylesheet" href="assets/css/fontstyle.css">
+    <link rel="stylesheet" href="assets/css/header-styles.css">
+    <link rel="stylesheet" href="assets/css/fontstyle.css">
+    <link rel="stylesheet" href="assets/css/header-styles.css">
+    <link rel="stylesheet" href="assets/css/footer-styles.css">
+    <link rel="stylesheet" href="assets/css/hero-section-styles.css">
+    <link rel="stylesheet" href="assets/css/hero-section-styles.css">
+    <link rel="stylesheet" href="assets/css/animation-section-styles.css">
+    <link rel="stylesheet" href="assets/css/contact-form-styles.css">
+    <link rel="stylesheet" href="assets/css/market-section-styles.css"> 
+    <link rel="stylesheet" href="assets/css/workflow-section-styles.css">
+    
+</head>
+<body>
+    <header class="header-component-wrapper"></header>
+
+    <section class="hero-section">  <!-- Hero Section Start -->
+        <div class="hero-section-container">
+            <h2 class="hero-title-main">FEELING SWAMPED WITH <br> 
+                <span style="color:#9400d3;">ENDLESS DESIGN REQUESTS FROM CLIENTS?</span></h2>
+            <p class="hero-paragraph">Agencies and printing companies often face the challenge of managing high client demand while maintaining speed and quality. The pressure to deliver on time without compromising results can lead to stress, inefficiency, and missed growth opportunities.</p>
+        </div>
+    </section> <!-- Hero Section End -->
+
+
+    <section class="animation-section">  <!-- Animation Section Start -->
+        <!-- First animation (left to right) -->
+        <div class="container">
+            <div class="slider">
+                <img src="images/Hero-image.jpg" alt="Left to right">
+                <img src="images/Hero-image.jpg" alt="Left to right">
+            </div>
+        </div>
+
+        <!-- Second animation (right to left) -->
+        <div class="container">
+            <div class="slider slider-right">
+                <img src="images/Hero-image-2.jpg" alt="Right to left">
+                <img src="images/Hero-image-2.jpg" alt="Right to left">
+            </div>
+        </div>
+    </section> <!-- Animation Section End -->
+
+    <section class="workflow-section">  <!-- Workflow Section Start -->
+        <div class="workflow-section-container">
+            <h2 class="workflow-title-main">SIMPLIFY YOUR WORKFLOW <br> WITH <span class="workflow-title-purple">TENT DESIGN USA</span></h2>
+            <p class="workflow-description">At <strong class="highlight-purple">Tent Design USA</strong>, we take the design burden off your shoulders, handling every client <br> request with precision and speed. Let us empower your agency to scale efficiently, meet <br> deadlines effortlessly, and focus on what you do best—printing and growing your business.</p>
+        </div>
+    </section> <!-- Workflow Section End -->
+
+                     
+    <section class="market-section">
+        <div class="market-section-container">
+            <h3 class="market-section-heading">DID YOU KNOW THE U.S. PRINTING <br> AND TRADE SHOW DESIGN MARKET IS A</h3>
+            <div class="market-value-box">
+                <p class="market-value-text-multi-billion">MULTI BILLION</p> 
+            </div>
+            <p class="market-value-text-dollar-industry">DOLLAR INDUSTRY?</p> 
+            <p class="market-description">By capturing just <strong>0.1%</strong> of this massive market, <br> your business could generate millions in revenue. Collaborating with Tent Design USA <br> means tapping into <strong class="highlight-purple">high-volume</strong><strong>, high-quality</strong> designs that help you serve more clients, <br> deliver faster, and grow your business exponentially. <br><br> Together, we can seize this incredible opportunity and make a lasting impact!</p>
+        </div>
+    </section>
+
+
+    <section class="contact-form-component-wrapper"></section>
+
+
+    <footer class="footer-component-wrapper"></footer>
+    <script>
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.querySelector('.header-component-wrapper').innerHTML = data;
+            });
+
+        fetch('../components/footer.html')  // Fetch footer component
+            .then(response => response.text())
+            .then(data => {
+                document.querySelector('.footer-component-wrapper').innerHTML = data; // Corrected selector to .footer-component-wrapper
+            })
+
+        fetch('components/contact-form.html') // Fetch contact form component
+            .then(response => response.text())
+            .then(data => {
+                document.querySelector('.contact-form-component-wrapper').innerHTML = data;
+            });
+
+
+    </script>
+
+    
+</body>
+</html>

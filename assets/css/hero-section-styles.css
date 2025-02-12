@@ -1,0 +1,50 @@
+/* C:\Users\HP\Downloads\portfolio\assets\css\hero-section-styles.css */
+
+html, body {
+    margin: 0;          /* Remove default margins */
+    padding: 0;         /* Remove default paddings */
+    width: 100%;        /* Make them take full width of the viewport */
+    box-sizing: border-box; /* Important for layout consistency */
+  }
+  
+  *, *::before, *::after { /* Apply border-box to all elements */
+    box-sizing: inherit; /* Inherit box-sizing from html,body */
+  }
+  
+
+.hero-section {
+    background-color: #000000; /* Black background */
+    padding-top: 50px; /* Adjust as needed for vertical spacing */
+    padding-bottom: 50px; /* Adjust as needed for vertical spacing */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .hero-section-container {
+    max-width: 1142px; /* Specified width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding-left: 20px; /* Add some horizontal padding if needed */
+    padding-right: 20px; /* Add some horizontal padding if needed */
+  }
+  
+  .hero-title-main {
+    font-size: 50px; /* Specified font size */
+    letter-spacing: 4px; /* Specified letter spacing */
+    line-height: 60px; /* Specified line height */
+    text-transform: uppercase; /* Specified text transform */
+    color: #ffffff; /* White color */
+    font-weight: bold; /* Bold font weight */
+    font-family: 'MonumentExtended-Ultrabold', sans-serif; /* Monument Extended font */
+    margin-bottom: 20px; /* Spacing between main title and paragraph */
+  }
+  
+  .hero-paragraph {
+    font-size: 25px; /* Specified font size */
+    line-height: 31px; /* Specified line height */
+    color: #ffffff; /* White color */
+    font-weight: 500; /* Medium font weight */
+    font-family: 'Montserrat-Medium', sans-serif; /* Montserrat font */
+  }
+  
+  .hero-paragraph strong {
+      font-weight: 700; /* Make "Agencies and printing companies" bold */
+  }

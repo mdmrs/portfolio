@@ -1,0 +1,46 @@
+/* C:\Users\HP\Downloads\portfolio\assets\css\animation-section-styles.css */
+
+.animation-section {
+    background-color: #000000; /* Keep background black if it should blend with hero */
+    padding-bottom: 20px; /* Add some padding below animations if needed */
+}
+
+.container {
+    width: 100vw;
+    overflow: hidden; /* Hide overflow to create slider effect */
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 200%; /* Double width to allow continuous sliding */
+    animation: slide-left 20s linear infinite; /* Default left-to-right animation */
+}
+
+.slider-right {
+    animation-name: slide-right; /* Apply right-to-left animation */
+}
+
+.slider img {
+    width: 50%; /* Each image takes 50% of container width */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent images from shrinking */
+    display: block; /* Prevent any extra space below images */
+}
+
+/* Left to right animation */
+@keyframes slide-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Move slider by 50% width */
+}
+
+/* Right to left animation */
+@keyframes slide-right {
+    0% { transform: translateX(-50%); } /* Start from -50% */
+    100% { transform: translateX(0); }    /* Move back to 0 */
+}
+
+/* Pause animation on hover - applied to .slider, not .container */
+.slider:hover {
+    animation-play-state: paused;
+}
