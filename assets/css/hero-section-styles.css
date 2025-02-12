@@ -1,10 +1,15 @@
 /* C:\Users\HP\Downloads\portfolio\assets\css\hero-section-styles.css */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html, body {
     margin: 0;          /* Remove default margins */
     padding: 0;         /* Remove default paddings */
     width: 100%;        /* Make them take full width of the viewport */
     box-sizing: border-box; /* Important for layout consistency */
+    overflow-x: hidden; 
   }
   
   *, *::before, *::after { /* Apply border-box to all elements */
@@ -14,16 +19,14 @@ html, body {
 
 .hero-section {
     background-color: #000000; /* Black background */
-    padding-top: 50px; /* Adjust as needed for vertical spacing */
-    padding-bottom: 50px; /* Adjust as needed for vertical spacing */
+    padding: 50px 0; /* Adjust as needed for vertical spacing */
     text-align: center; /* Center text horizontally */
   }
   
   .hero-section-container {
     max-width: 1142px; /* Specified width */
     margin: 0 auto; /* Center the container horizontally */
-    padding-left: 20px; /* Add some horizontal padding if needed */
-    padding-right: 20px; /* Add some horizontal padding if needed */
+    padding: 0;
   }
   
   .hero-title-main {
